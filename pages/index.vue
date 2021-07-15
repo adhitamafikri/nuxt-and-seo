@@ -10,11 +10,9 @@
     <h2 class="text-xl text-center mt-8">Our Top Products</h2>
     <div class="w-100 flex justify-center space-x-8 mt-4">
       <template v-for="product in products">
-        <component
-          :is="'ProductCard'"
-          :key="`prd-${product.id}`"
-          :product="product"
-        />
+        <nuxt-link :key="`prd-${product.id}`" :to="`/details/${product.id}`">
+          <component :is="'ProductCard'" :product="product" />
+        </nuxt-link>
       </template>
     </div>
   </section>
