@@ -1,6 +1,6 @@
 <template>
   <section id="product-detail">
-    <component :is="'ProductCard'" v-if="product" :product="product" />
+    <component :is="'ProductCard'" :product="product" />
   </section>
 </template>
 
@@ -16,8 +16,21 @@ export default {
   async asyncData({ params }) {
     const { productId } = params
     const product = await apiGetProduct(productId)
-    console.dir('PODUCT', product)
     return { product }
+  },
+  head() {
+    const { name } = this.product
+    const metaDescription = `Lagi Sale! Beli ${name} di Nuxt Store. Dapatkan Harga Terbaik dan Dijamin Original!`
+    return {
+      title: `Lagi Sale! | Beli ${name} di Nuxt Store`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: metaDescription,
+        },
+      ],
+    }
   },
 }
 </script>

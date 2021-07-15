@@ -23,17 +23,17 @@
 <script>
 import { mapState } from 'vuex'
 
-const SEO_CONTENTS = {
-  description:
-    "This is a website where I learn about SEO and how to leverage NuxtJS's SSR to achieve a better SEO",
-}
-
 export default {
   components: {
     ProductCard: () =>
       import(/* product-card */ '@/components/ProductCard.vue'),
   },
   head() {
+    const SEO_CONTENTS = {
+      description:
+        "This is a website where I learn about SEO and how to leverage NuxtJS's SSR to achieve a better SEO",
+    }
+
     return {
       title: 'Home | Learn Nuxt and Seo',
       meta: [
