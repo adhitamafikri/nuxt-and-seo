@@ -9,7 +9,7 @@ function getProduct(productId = 0) {
           (x) => x.id === parseInt(productId, 10)
         )[0]
         resolve(result)
-      }, 2000)
+      }, 1000)
     } catch (error) {
       reject(error)
     }
