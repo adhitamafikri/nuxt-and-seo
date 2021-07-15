@@ -1,9 +1,17 @@
 <template>
   <div id="app-container">
-    <Header />
+    <component :is="'Header'" />
     <nuxt />
   </div>
 </template>
+
+<script>
+export default {
+  components: {
+    Header: () => import(/* app-header */ '@/components/Header.vue'),
+  },
+}
+</script>
 
 <style lang="scss" scoped>
 #app-container {
