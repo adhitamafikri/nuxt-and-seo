@@ -5,7 +5,7 @@
         <img src="/icon.png" alt="logo" />
       </div>
     </nuxt-link>
-    <p class="text-white font-bold">The Nuxt Store</p>
+    <p class="font-bold">The Nuxt Store</p>
   </div>
 </template>
 
@@ -17,7 +17,7 @@ export default {
 
 <style lang="scss" scoped>
 .c-header {
-  background: $Fashion-1-hex;
+  background: $Fashion-4-hex;
   width: 100%;
   height: 80px;
   position: fixed;
