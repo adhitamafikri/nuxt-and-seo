@@ -7,6 +7,11 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+      {
+        hid: 'google-site-verification',
+        name: 'google-site-verification',
+        content: 'hCGCqBDrklda-pRcAP_RLXZdzPC1VUZqe7iygrRhPRk',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
