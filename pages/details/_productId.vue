@@ -20,9 +20,9 @@ export default {
   },
   head() {
     const { name } = this.product
-    const metaDescription = `Lagi Sale! Beli ${name} di Nuxt Store. Dapatkan Harga Terbaik dan Dijamin Original!`
+    const metaDescription = `The Nuxty Store! Get ${name} With the Best Price`
     return {
-      title: `Lagi Sale! | Beli ${name} di Nuxt Store`,
+      title: `The Nuxty Store - Get ${name} With the Best Price`,
       meta: [
         {
           hid: 'description',

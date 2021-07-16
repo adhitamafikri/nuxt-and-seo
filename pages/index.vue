@@ -33,7 +33,7 @@ export default {
     }
 
     return {
-      title: 'Home | Learn Nuxt and Seo',
+      title: 'The Nuxty Store - Learn Nuxt and Seo',
       meta: [
         {
           hid: 'description',
