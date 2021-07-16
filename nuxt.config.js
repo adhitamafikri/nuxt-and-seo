@@ -10,7 +10,7 @@ export default {
       {
         hid: 'google-site-verification',
         name: 'google-site-verification',
-        content: 'hCGCqBDrklda-pRcAP_RLXZdzPC1VUZqe7iygrRhPRk',
+        content: 'ttbo_RHI9LSOHEF-duJhrC6oD6m0WB3t_kj75n8lTgo',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
