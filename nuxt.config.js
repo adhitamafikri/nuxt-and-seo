@@ -41,6 +41,8 @@ export default {
     '@nuxtjs/pwa',
     // https://www.npmjs.com/package/@nuxtjs/style-resources
     '@nuxtjs/style-resources',
+    // https://sitemap.nuxtjs.org/
+    '@nuxtjs/sitemap',
   ],
 
   // Style resources config
