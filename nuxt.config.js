@@ -45,6 +45,13 @@ export default {
     '@nuxtjs/sitemap',
   ],
 
+  // @nuxtjs/sitemap configuration
+  sitemap: {
+    hostname: 'https://nuxt-and-seo.vercel.app/',
+    gzip: true,
+    routes: [],
+  },
+
   // Style resources config
   styleResources: {
     // your settings here
